@@ -1,13 +1,60 @@
-#content
-  h1 Brunch
-    img(src='http://brunch.io/images/brunch.png')
-  h2 Welcome!
-  ul
-    li
-      a(href='http://brunch.readthedocs.org/') Documentation
-    li
-      a(href='https://github.com/brunch/brunch/issues') Github Issues
-    li
-      a(href='https://github.com/brunch/twitter') Twitter Example App
-    li
-      a(href='https://github.com/brunch/todos') Todos Example App
+.navbar.navbar-inverse.navbar-fixed-top
+  .navbar-inner
+      .container
+        button.btn.btn-navbar(type='button', data-toggle='collapse', data-target='.nav-collapse')
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.brand(href='#') MITHgrid
+        .nav-collapse.collapse
+          ul.nav
+            li.active
+              a(href='#') Home
+            li
+              a(href='#about') About
+            li
+              a(href='#contact') Contact
+            li.dropdown
+              a.dropdown-toggle(href='#', data-toggle='dropdown')
+                | Demos
+                b.caret
+              ul.dropdown-menu
+                li
+                  a(href='#') ToDo
+                li
+                  a(href='#') Backbone+MITHgrid
+                
+          /.nav-collapse 
+  .container
+    //
+       Main hero unit for a primary marketing message or call to action 
+    .hero-unit
+      h2 Brunch with MITHgrid and BackboneJs
+      p
+        | This is a new Brunch skeleton (basically an application boilerplate that provides a good starting point for new applications) which includes Backbone.js, MITHgrid (JavaScript framework for building browser-based applications composed of a small core and a set of plugins) and Twitter Bootstrap.
+      p
+        a.btn.btn-primary.btn-large(href='#') Learn more »
+    //
+       Example row of columns 
+    .row
+      .span4.well
+        h2 Features
+        ul
+          li Templating with Jade
+          li Bootstrap 2.3 using SASS from Thomas McDonald's bootstrap-sass
+          li CoffeeScript
+          li Backbone 1.0.0 for data models and routing
+          li MITHgrid for data-centric view presentation.
+      .span6
+        h2 Coming Soon!
+        ul
+          li Simple demo application such as TODO application using MITHgrid.
+          li Build fairly complex demos using backbone and MITHgrid.
+        p
+          a.btn( href='https://github.com/selvam1991/brunch-mithgrid').btn-inverse View Project on GitHub 
+      
+    hr
+    footer
+      p © Company 2013
+  //
+     /container 
