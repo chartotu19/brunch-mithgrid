@@ -17,6 +17,12 @@ Requires Brunch 1.3+.
 * [Backbone 1.0.0](http://backbonejs.org) for data models and routing
 * [MITHgrid](https://github.com/umd-mith/mithgrid) for data-centric view presentation.
 
+##TODO
+
+* Build simple demo application such as TODO application using MITHgrid.
+* Build fairly complex demos using backbone and MITHgrid.
+
+
 ## License
 The MIT license.
 
